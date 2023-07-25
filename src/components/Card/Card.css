@@ -1,0 +1,42 @@
+.card {
+  width: 175px;
+  font-size: 16px;
+  position: relative;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-image {
+  max-width: 100%;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-start {
+  height: 14px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #fff;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    margin-bottom: 50px;
+  }
+}
